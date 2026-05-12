@@ -1,3 +1,3 @@
 import pandas as pd
-list = [1, 2, 3, 4, 5]
-print (pd.Series(list))
+data = pd.read_csv("data/kumpula-summer-2024.txt", comment='#')
+print(data.head())
