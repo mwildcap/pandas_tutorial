@@ -1,0 +1,3 @@
+import pandas as pd
+list = [1, 2, 3, 4, 5]
+print (pd.Series(list))
